@@ -1,0 +1,153 @@
+{
+  "id": "paper-and-ink",
+  "title": "Paper & Ink",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {
+    "paper-and-ink": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "ink": {
+            "label": "Ink",
+            "description": "Effects with the ink trait either manipulate or conjure ink. Those that manipulate ink have no effect in an area without ink. Creatures with this trait consist primarily of ink or have a connection to magical ink."
+          },
+          "paper": {
+            "label": "Paper",
+            "description": "Effects with the paper trait either manipulate or conjure paper. Those that manipulate paper have no effect in an area without paper. Creatures with this trait consist primarily of paper or have a connection to magical paper."
+          },
+          "smudge": {
+            "label": "Smudge",
+            "description": "A creature can use a single action to attempt to remove the ink from the affected target or area. This requires Counteracting the effect using Crafting, Thievery, or an unarmed attack roll. Use your class DC as the counteract DC and half your level rounded up as the counteract rank. This action has the attack and manipulate traits."
+          },
+          "pataehs": {
+            "label": "Pataehs",
+            "description": "Pataehs"
+          },
+          "dizigini": {
+            "label": "Dizigini",
+            "description": "Dizigini"
+          }
+        },
+        "weaponTraits": {
+          "ink": {
+            "label": "Ink",
+            "description": "Ink"
+          },
+          "paper": {
+            "label": "Paper",
+            "description": "Paper"
+          },
+          "modular-b-s": {
+            "label": "Modular P or S",
+            "description": "Modular P or S"
+          },
+          "thrown-50": {
+            "label": "Thrown 50 ft.",
+            "description": "Thrown 50 ft."
+          },
+          "thrown-120": {
+            "label": "Thrown 120 ft.",
+            "description": "Thrown 120 ft."
+          }
+        },
+        "creatureTraits": {
+          "pataehs": "Pataehs",
+          "dizigini": "Dizigini",
+          "ink": "Ink",
+          "paper": "Paper",
+          "cartonnage": "Cartonnage"
+        },
+        "languages": {
+          "composonian": "Composonian",
+          "pehtcha": "Pehtcha"
+        }
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "bestiary",
+      "label": "Bestiary",
+      "path": "packs/bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "kineticist",
+      "label": "Kineticist",
+      "path": "packs/kineticist",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "planar-heritages",
+      "label": "Planar Heritages",
+      "path": "packs/planar-heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "deities-and-domains",
+      "label": "Deities and Domains",
+      "path": "packs/deities-and-domains",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiary-items",
+      "label": "Bestiary Items",
+      "path": "packs/bestiary-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Paper & Ink",
+      "sorting": "a",
+      "packs": [
+        "bestiary",
+        "kineticist",
+        "planar-heritages",
+        "deities-and-domains",
+        "bestiary-items"
+      ],
+      "folders": []
+    }
+  ],
+  "url": "https://github.com/molotgor/paper-and-ink",
+  "manifest": "https://raw.githubusercontent.com/molotgor/paper-and-ink/master/module.json",
+  "download": "https://github.com/molotgor/paper-and-ink/archive/refs/heads/master.zip"
+}
