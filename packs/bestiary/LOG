@@ -1,24 +1,8 @@
-2025/01/28-22:21:06.355 2b10 Recovering log #179
-2025/01/28-22:21:06.356 2b10 Level-0 table #181: started
-2025/01/28-22:21:06.360 2b10 Level-0 table #181: 26382 bytes OK
-2025/01/28-22:21:06.374 2b10 Delete type=0 #179
-2025/01/28-22:21:06.375 2b10 Delete type=3 #178
-2025/01/28-22:21:11.372 1ca0 Moved #181 to level-1 26382 bytes OK: files[ 0 1 1 0 0 0 0 ]
-2025/01/28-22:21:11.375 1ca0 Compacting 1@1 + 1@2 files
-2025/01/28-22:21:11.387 1ca0 Generated table #183@1: 541 keys, 449236 bytes
-2025/01/28-22:21:11.387 1ca0 Compacted 1@1 + 1@2 files => 449236 bytes
-2025/01/28-22:21:11.390 1ca0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/01/28-22:21:11.390 1ca0 Delete type=2 #177
-2025/01/28-22:21:11.391 1ca0 Delete type=2 #181
-2025/01/28-22:28:10.855 1ca0 Level-0 table #185: started
-2025/01/28-22:28:10.861 1ca0 Level-0 table #185: 19932 bytes OK
-2025/01/28-22:28:10.865 1ca0 Delete type=0 #182
-2025/01/28-22:28:10.865 1ca0 Manual compaction at level-0 from '!actors!1AKDwCGy79k1faHG' @ 72057594037927935 : 1 .. '!folders!lfA7nUyajt9I1BxA' @ 0 : 0; will stop at (end)
-2025/01/28-22:28:10.865 1ca0 Manual compaction at level-1 from '!actors!1AKDwCGy79k1faHG' @ 72057594037927935 : 1 .. '!folders!lfA7nUyajt9I1BxA' @ 0 : 0; will stop at '!actors.items!mz59wmHtXbHkumtz.UILcB1rHVEoo5eqk' @ 4739 : 1
-2025/01/28-22:28:10.865 1ca0 Compacting 1@1 + 1@2 files
-2025/01/28-22:28:10.886 1ca0 Generated table #186@1: 541 keys, 449693 bytes
-2025/01/28-22:28:10.886 1ca0 Compacted 1@1 + 1@2 files => 449693 bytes
-2025/01/28-22:28:10.889 1ca0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/01/28-22:28:10.889 1ca0 Delete type=2 #183
-2025/01/28-22:28:10.889 1ca0 Delete type=2 #185
-2025/01/28-22:28:10.902 1ca0 Manual compaction at level-1 from '!actors.items!mz59wmHtXbHkumtz.UILcB1rHVEoo5eqk' @ 4739 : 1 .. '!folders!lfA7nUyajt9I1BxA' @ 0 : 0; will stop at (end)
+2025/03/22-22:42:46.267 3508 Recovering log #202
+2025/03/22-22:42:46.279 3508 Delete type=0 #202
+2025/03/22-22:42:46.279 3508 Delete type=3 #200
+2025/03/22-22:43:30.403 2e3c Level-0 table #207: started
+2025/03/22-22:43:30.403 2e3c Level-0 table #207: 0 bytes OK
+2025/03/22-22:43:30.408 2e3c Delete type=0 #205
+2025/03/22-22:43:30.415 2e3c Manual compaction at level-0 from '!actors!1AKDwCGy79k1faHG' @ 72057594037927935 : 1 .. '!folders!lfA7nUyajt9I1BxA' @ 0 : 0; will stop at (end)
+2025/03/22-22:43:30.415 2e3c Manual compaction at level-1 from '!actors!1AKDwCGy79k1faHG' @ 72057594037927935 : 1 .. '!folders!lfA7nUyajt9I1BxA' @ 0 : 0; will stop at (end)
